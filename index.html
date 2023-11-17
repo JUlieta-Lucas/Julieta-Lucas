@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generador de Números</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 50%;
+      margin-top: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <label for="numero">Número generado:</label>
+  <input type="text" id="numero" readonly>
+
+  <button onclick="generarNumero()">Generar Número</button>
+  <button onclick="agregarNumero()">Agregar a la Tabla</button>
+  <button onclick="calcularEstadisticas()">Calcular Estadísticas</button>
+
+  <table id="tabla">
+    <tr>
+      <th>Números</th>
+    </tr>
+  </table>
+
+  <p id="promedio"></p>
+  <p id="total"></p>
+  <p id="maximo"></p>
+  <p id="minimo"></p>
+
+  <script src="main.js">
+  
+  </script>
+
+</body>
+</html>
